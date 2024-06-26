@@ -1,0 +1,43 @@
+.App {
+  height: 100vh;
+  padding-top: 10px;
+  background: radial-gradient(circle, #04b8ff, #333333);
+  font-family: Lato, sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-calculadora {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+  padding: 14px;
+  background-color: #434343;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+
+.fila {
+  margin: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input{
+  width: 100%-5px;
+  border-radius: 20px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+  height: 100px;
+  text-align: right;
+ 
+}
+
+.input:hover{
+  background-color: rgb(120,120,120);
+}
